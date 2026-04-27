@@ -4,5 +4,9 @@
 	.container {
 		max-width: 80.42%;
 		margin: auto;
+
+		@media (min-width: 1441px) {
+			max-width: 1158px;
+		}
 	}
 }
