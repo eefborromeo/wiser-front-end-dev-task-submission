@@ -6,8 +6,8 @@ Preview URL: [Vercel](https://wiser-front-end-dev-task-submission.vercel.app/)
 
 ## Notes
 
+- I am using default theme colors so the UI colors may shift from the Figma design depending on the user's system settings.
 - If I had the time to get the images of the logos, I would have used the Next Image component for optimization and used `job.brand` for alt text.
-- I am using the default theme colors so the colors can be switched depending on the user's system preference.
 - Other improvements I would make to make it production-ready:
   - Error handling in case `mockJobs` was empty or data from API was unavailable
   - Performance optimization through lazy-loading and code splitting
