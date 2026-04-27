@@ -1,8 +1,14 @@
-# Wiser Frontend Task — Figma to Build (Pixel Perfect)
+---
+# Wiser Frontend Task Submission
+---
 
-Thanks for taking the time to do this short frontend exercise.
+## Notes
 
-The goal of this task is to assess how you translate a Figma design into a clean, accurate frontend build — focusing on layout, spacing, typography, and attention to detail.
+- If I had the time to get the images of the logos, I would have used the Next Image component for optimization and used `job.brand` for alt text.
+- I am using the default theme colors so the colors can be switched depending on the user's system preference.
+- Other improvements I would make to make it production-ready:
+  - Error handling in case `mockJobs` was empty or data from API was unavailable
+  - Performance optimization through lazy-loading and code splitting
 
 ---
 
