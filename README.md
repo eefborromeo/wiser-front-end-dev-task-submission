@@ -2,6 +2,8 @@
 # Wiser Frontend Task Submission
 ---
 
+Preview URL: [Vercel](https://wiser-front-end-dev-task-submission.vercel.app/)
+
 ## Notes
 
 - If I had the time to get the images of the logos, I would have used the Next Image component for optimization and used `job.brand` for alt text.
