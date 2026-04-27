@@ -1,3 +1,57 @@
 .row {
-  //add styles
+	padding: 24px 16px;
+	display: grid;
+	grid-template-columns: minmax(274px, 1fr) 1fr minmax(180px, 1fr) minmax(171px, 1fr);
+	gap: 7.8rem;
+	align-items: center;
+
+	.title {
+		font-size: 1.125rem;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	.team {
+		display: block;
+		margin-top: 8px;
+		font-size: 1rem;
+	}
+
+	.brand {
+		text-align: center;
+		font-size: 1rem;
+		margin: 0;
+	}
+
+	.location {
+		margin: 0;
+		font-size: 1rem;
+	}
+
+	a {
+		background: unset;
+		border: 1.5px solid var(--foreground);
+		color: var(--foreground);
+		border-radius: 30px;
+		padding: 8px 24px;
+		text-decoration: none;
+		text-align: center;
+		&:hover {
+			background: var(--foreground);
+			color: var(--background);
+		}
+	}
+
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr;
+		gap: 16px;
+
+		.team {
+			margin-top: 4px;
+		}
+
+		.brand {
+			text-align: left;
+		}
+	}
 }
